@@ -195,7 +195,7 @@
 			strategies: [
 				//strategy
 				new OpenLayers.Strategy.Fixed(),
-				new OpenLayers.Strategy.Cluster({distance: 30, threshold: 2})//for clusturing 2 schools within 50 pixel distance.
+				new OpenLayers.Strategy.Cluster({distance: 30, threshold: 2})//for clusturing 2 schools within 30 pixel distance.
 			],
 			protocol: new OpenLayers.Protocol.HTTP({
 				url: "data/education_centroid.geojson",   //<-- relative or absolute URL to your .osm file
